@@ -16,16 +16,6 @@ public class Worker {
             }
         }
     }
-
-    @FunctionalInterface
-    public interface OnTaskDoneListener {
-        void onDone(String result);
-    }
-
-    @FunctionalInterface
-    public interface OnTaskErrorListener {
-        void onError(String errorMessage);
-    }
 }
 
 
